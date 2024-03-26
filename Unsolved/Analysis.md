@@ -61,6 +61,8 @@ Through the analysis of these features, the developed binary classifier will det
 
   - Despite these attempts, the model plateaus around our original accuracy / loss value which indicates that the data provided is very limited for model learning.
 
+    ![Screenshot 2024-03-26 at 00 44 03](https://github.com/imnana18/deep-learning-challenge/assets/147445115/d4da7c7e-ef40-4a2b-9aa9-1efe878fda2a)
+
   - Also proposed is to adjust the features measuring relatability between the ASK_AMT and INCOME_AMT for model analysis. The idea is to write a function that splits the values in the INCOME_AMT column into 'min' and 'max' values to see if the ASK_AMT falls above, below, or in-range of the INCOME_AMT. A new column would be created that has 3 values 'More', 'Less', or 'In-Range' based on the results of the function which we would then call pd.get_dummies and incorporate into our analysis. Due to time limitations, this may be further investigated beyond the deadline.
 
     

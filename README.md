@@ -4,6 +4,10 @@
 
 In response to the requirements of the nonprofit foundation Alphabet Soup, this project aimed to develop a binary classification model using machine learning and neural networks. The objective was to create a tool capable of predicting the success of funding applicants, aiding Alphabet Soup in selecting organizations with the highest potential for success in their ventures.
 
+## Project Map
+
+
+
 ## Overview of the Assignment
 
 1. **Data Preprocessing**: 

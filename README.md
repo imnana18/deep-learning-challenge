@@ -41,4 +41,8 @@ The necessary files were downloaded from the following link: [Module 21 Challeng
 
 Through this assignment, a deep learning model was developed to predict the success of funding applicants for Alphabet Soup. While the model achieved moderate success in prediction accuracy, further optimization and exploration of alternative model architectures and feature engineering techniques could enhance its performance. Overall, the assignment provided valuable insights into the application of machine learning and neural networks in addressing real-world challenges faced by nonprofit organizations.
 
+## References
+
+IRS. Tax Exempt Organization Search Bulk Data Downloads. [IRS Website](https://www.irs.gov/charities-non-profits/tax-exempt-organization-search-bulk-data-downloads).
+
  

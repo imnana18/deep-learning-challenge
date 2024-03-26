@@ -1,4 +1,4 @@
-# Deep Learning Model Performance Report
+# Deep Learning Model Performance Report 📊
 
 ## Overview of the Analysis
 

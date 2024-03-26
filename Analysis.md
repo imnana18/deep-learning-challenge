@@ -38,6 +38,7 @@ Through the analysis of these features, the developed binary classifier will det
 - **Steps to Improve Model Performance**:
   - Various strategies were employed to enhance model performance, including adding a third hidden layer (1), adjusting the activation parameter between hidden layers (2), adjusting neuron counts (3), adding 'Dropout' and 'Binary_Normalizer' functions in TensorFlow (4), changing value counts for binning (5), custom binning the 'ASK_AMT' column (6), and dropping the 'STATUS' and 'SPECIAL_CONSIDERATION' columns (7). Despite these attempts, the model plateaus around our original accuracy / loss value which indicates that the data provided is very limited for model learning.
       - (1) - (4):
+        
     ![Screenshot 2024-03-26 at 00 05 03](https://github.com/imnana18/deep-learning-challenge/assets/147445115/398e22e7-8fa5-49e8-809c-34a1e51d8540)
 
     ![Screenshot 2024-03-26 at 00 03 53](https://github.com/imnana18/deep-learning-challenge/assets/147445115/cb8ee41f-c1f6-4d51-92c0-98d216898e1e)

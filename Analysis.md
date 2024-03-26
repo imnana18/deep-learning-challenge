@@ -36,7 +36,21 @@ Through the analysis of these features, the developed binary classifier will det
     ![Screenshot 2024-03-26 at 00 00 29](https://github.com/imnana18/deep-learning-challenge/assets/147445115/671c5a2e-6bef-4a17-a72b-7b849d785ba0)
 
 - **Steps to Improve Model Performance**:
-  - Various strategies were employed to enhance model performance, including adding a third hidden layer, adjusting the activation parameter between hidden layers, adjusting neuron counts, adding 'Dropout' and 'Binary_Normalizer' functions in TensorFlow, changing value counts for binning, custom binning the 'ASK_AMT' column, and dropping the 'STATUS' and 'SPECIAL_CONSIDERATION' columns. Despite these attempts, the model plateaus around our original accuracy / loss value which indicates that the data provided is very limited for model learning.
+  - Various strategies were employed to enhance model performance, including adding a third hidden layer (1), adjusting the activation parameter between hidden layers (2), adjusting neuron counts (3), adding 'Dropout' and 'Binary_Normalizer' functions in TensorFlow (4), changing value counts for binning (5), custom binning the 'ASK_AMT' column (6), and dropping the 'STATUS' and 'SPECIAL_CONSIDERATION' columns (7). Despite these attempts, the model plateaus around our original accuracy / loss value which indicates that the data provided is very limited for model learning.
+      - (1) - (4):
+    ![Screenshot 2024-03-26 at 00 05 03](https://github.com/imnana18/deep-learning-challenge/assets/147445115/398e22e7-8fa5-49e8-809c-34a1e51d8540)
+
+    ![Screenshot 2024-03-26 at 00 03 53](https://github.com/imnana18/deep-learning-challenge/assets/147445115/cb8ee41f-c1f6-4d51-92c0-98d216898e1e)
+
+      - (5):
+    ![Screenshot 2024-03-26 at 00 10 17](https://github.com/imnana18/deep-learning-challenge/assets/147445115/a3700594-9ffa-48c1-b787-fff75d806fd0)
+
+      - (6):
+    ![Screenshot 2024-03-26 at 00 11 26](https://github.com/imnana18/deep-learning-challenge/assets/147445115/932a4889-c210-4bf3-9f95-60132817b7a8)
+
+      - (7):
+    ![Screenshot 2024-03-26 at 00 06 04](https://github.com/imnana18/deep-learning-challenge/assets/147445115/de6acd02-121d-45b6-92c8-31b0fc91ac2a)
+
 
 ## Summary
 

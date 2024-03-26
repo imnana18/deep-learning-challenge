@@ -4,9 +4,23 @@
 
 In response to the requirements of the nonprofit foundation Alphabet Soup, this project aimed to develop a binary classification model using machine learning and neural networks. The objective was to create a tool capable of predicting the success of funding applicants, aiding Alphabet Soup in selecting organizations with the highest potential for success in their ventures.
 
-## Project Map
+## Assignment Map
+
+📁 `Saved_Models`
+
+ - `AlphabetSoupCharity.h5`: saved model for initial model training and testing.
+ - `AlphabetSoupCharity_Optimization.h5`: saved model for optimization training and testing.
+
+📁 `Unsolved`
+
+ - `AlphabetSoupCharity.ipynb`: code for processing data and initial neural network training-testing.
+ - `AlphabetSoupCharity_Optimization.ipynb`: code for processing data in attempts to optimize neural network model.
+ - 📊 `Analysis.md`: written report on the neural network model.
 
 
+## Files
+
+The necessary files were downloaded from the following link: [Module 20 Challenge files]((https://static.bc-edx.com/data/dl-1-2/m20/lms/starter/Starter_Code.zip)).
 
 ## Overview of the Assignment
 

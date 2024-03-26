@@ -27,11 +27,13 @@ Through the analysis of these features, the developed binary classifier will det
   - The neural network model consists of 3 layers in total. 2 hidden layers with 128 neurons in the first input layer and 64 neurons in the second layer. We are creating a binary classifier so the final output layer has 1 neuron with 'sigmoid' activation. These numbers were chosen as part of common practice when creating neural network models that provide a moderate level of complexity for the given DataFrame. 
   - Activation functions utilized include 'relu' and 'sigmoid'.
 
-  ![Screenshot 2024-03-25 at 23 50 18](https://github.com/imnana18/deep-learning-challenge/assets/147445115/9b04e4e0-a7cf-40db-92da-9e92384d9d9f)
+    ![Screenshot 2024-03-25 at 23 50 18](https://github.com/imnana18/deep-learning-challenge/assets/147445115/9b04e4e0-a7cf-40db-92da-9e92384d9d9f)
 
 - **Achievement of Target Performance**:
   - We were not able to acheive target performance of 75%. 
   - The model achieved 0.73 accuracy with a 0.57 loss value. it seems that the learning curve plateaus around these values even when experimenting with neuron / layer counts and column dropping or binning.
+
+    ![Screenshot 2024-03-26 at 00 00 29](https://github.com/imnana18/deep-learning-challenge/assets/147445115/671c5a2e-6bef-4a17-a72b-7b849d785ba0)
 
 - **Steps to Improve Model Performance**:
   - Various strategies were employed to enhance model performance, including adding a third hidden layer, adjusting the activation parameter between hidden layers, adjusting neuron counts, adding 'Dropout' and 'Binary_Normalizer' functions in TensorFlow, changing value counts for binning, custom binning the 'ASK_AMT' column, and dropping the 'STATUS' and 'SPECIAL_CONSIDERATION' columns. Despite these attempts, the model plateaus around our original accuracy / loss value which indicates that the data provided is very limited for model learning.

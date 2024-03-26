@@ -1,4 +1,4 @@
-# Deep-Learning Charity Prediction Model
+# Deep-Learning Charity Prediction Model 🧠
 
 ## Introduction
 

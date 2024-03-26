@@ -45,7 +45,7 @@ Through the analysis of these features, the developed binary classifier will det
 
       - (5):
 
-    ![Screenshot 2024-03-26 at 00 32 59](https://github.com/imnana18/deep-learning-challenge/assets/147445115/a9789d60-ca39-4f55-a26f-f7a8fc88f686)
+    ![Screenshot 2024-03-26 at 00 32 59](https://github.com/imnana18/deep-learning-challenge/assets/147445115/44440082-4abe-4d8d-8db8-55d339b13dce)
 
       - (6):
 

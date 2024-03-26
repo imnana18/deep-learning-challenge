@@ -36,7 +36,7 @@ Through the analysis of these features, the developed binary classifier will det
     ![Screenshot 2024-03-26 at 00 00 29](https://github.com/imnana18/deep-learning-challenge/assets/147445115/671c5a2e-6bef-4a17-a72b-7b849d785ba0)
 
 - **Steps to Improve Model Performance**:
-  - Various strategies were employed to enhance model performance, (1) including adding a third hidden layer, (2) adjusting the activation parameter between hidden layers, (3) adjusting neuron counts, (4) adding 'Dropout' and 'Binary_Normalization' functions in TensorFlow, (5) altering epoch and batch values during model training, (6) changing value counts for binning, (7) custom binning the 'ASK_AMT' column, and (8) dropping the 'STATUS' and 'SPECIAL_CONSIDERATION' columns. Despite these attempts, the model plateaus around our original accuracy / loss value which indicates that the data provided is very limited for model learning.
+  - Various strategies were employed to enhance model performance, including (1) adding a third hidden layer, (2) adjusting the activation parameter between hidden layers, (3) adjusting neuron counts, (4) adding 'Dropout' and 'Binary_Normalization' functions in TensorFlow, (5) altering epoch and batch values during model training, (6) changing value counts for binning, (7) custom binning the 'ASK_AMT' column, and (8) dropping the 'STATUS' and 'SPECIAL_CONSIDERATION' columns. Despite these attempts, the model plateaus around our original accuracy / loss value which indicates that the data provided is very limited for model learning.
       - (1) - (4):
         
     ![Screenshot 2024-03-26 at 00 05 03](https://github.com/imnana18/deep-learning-challenge/assets/147445115/398e22e7-8fa5-49e8-809c-34a1e51d8540)

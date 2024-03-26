@@ -37,7 +37,6 @@ Through the analysis of these features, the developed binary classifier will det
 
 - **Steps to Improve Model Performance**:
   - Various strategies were employed to enhance model performance, including: __(1)__ adding a third hidden layer, __(2)__ adjusting the activation parameter between hidden layers, __(3)__ adjusting neuron counts, __(4)__ adding 'Dropout' and 'Binary_Normalization' functions in TensorFlow, __(5)__ altering epoch and batch values during model training, __(6)__ changing value counts for binning, __(7)__ custom binning the 'ASK_AMT' column, and __(8)__ dropping the 'STATUS' and 'SPECIAL_CONSIDERATION' columns.
-  - Despite these attempts, the model plateaus around our original accuracy / loss value which indicates that the data provided is very limited for model learning.
       - (1) - (4):
         
     ![Screenshot 2024-03-26 at 00 05 03](https://github.com/imnana18/deep-learning-challenge/assets/147445115/398e22e7-8fa5-49e8-809c-34a1e51d8540)
@@ -60,6 +59,7 @@ Through the analysis of these features, the developed binary classifier will det
     
     ![Screenshot 2024-03-26 at 00 06 04](https://github.com/imnana18/deep-learning-challenge/assets/147445115/de6acd02-121d-45b6-92c8-31b0fc91ac2a)
 
+  - Despite these attempts, the model plateaus around our original accuracy / loss value which indicates that the data provided is very limited for model learning.
 
   - Also proposed is to adjust the features measuring relatability between the ASK_AMT and INCOME_AMT for model analysis. The idea is to write a function that splits the values in the INCOME_AMT column into 'min' and 'max' values to see if the ASK_AMT falls above, below, or in-range of the INCOME_AMT. A new column would be created that has 3 values 'More', 'Less', or 'In-Range' based on the results of the function which we would then call pd.get_dummies and incorporate into our analysis. Due to time limitations, this may be further investigated beyond the deadline.
 
